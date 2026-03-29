@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 
 // 🏠 LOCALHOST ENGINE (Kyunki deployment abhi band hai)
-const API_BASE_URL = "http://localhost:5000";
+ const API_BASE_URL = "https://wanderlust-planner-npb0.onrender.com";
 
 const TripCard = ({ trip, handleDelete }) => {
   const [showPlan, setShowPlan] = useState(false);
